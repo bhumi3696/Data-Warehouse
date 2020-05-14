@@ -1,0 +1,358 @@
+
+x<-rnorm(4)
+y<-rnorm(x)
+
+plot(x,y)
+boxplot(x)
+hist(x)
+x<- NULL
+rm(y)
+
+M<- c(10.4, 5.6, 3.1, 6.4, 21.7) 
+typeof(M)
+
+N<-1/x
+N
+
+a <- 1 + x
+a
+
+b <- 1 - x
+b
+ 
+c <- 1 * x
+c
+
+d <-  1^x
+d
+ 
+e<- log(x)
+e
+
+f<-sin(x)
+f
+
+g<-exp(x)
+g
+
+h<-cos(x)
+h
+
+i<-sqrt(x)
+i
+
+j<-c(min(x), max(x), length(x))
+j
+
+k<-sum(x)
+k
+
+temp <- x >13
+temp
+temp <- x < 13
+temp
+temp <- x >= 13
+temp
+temp <- x <= 13
+temp
+temp <- x == 13
+temp
+temp1 <- x[x>3 & x<7]
+temp1
+temp2 <- x[x>mean(x)]
+temp2
+
+y <- sd(x)
+temp2 <- x[x<(mean(x)-y)| x >(mean(x)+y)]
+temp2
+
+v <- c("hello" , "world")
+v
+paste(v,5:10)
+t <- c(1:3, NA)
+t
+is.na(t)
+t == NA
+
+temp = 0/0
+temp
+x <- c(-5:-1,NA,NA,1:3)
+x
+y <- x[(!is.na(x)) & x>0]
+y
+z<-x[-(1:3)]
+z
+money <- c(10,100000,-10,NA,15)
+strangeAnswers <- money[(is.na(x)) & money<0] 
+normalPeople <- money[(!is.na(x)) & money>=0 & money < 200] 
+toffs <- money[money > 10000]
+
+fruit <- c(5, 10, 1, 20)
+names(fruit) <- c("orange", "banana", "apple", "peach", "bhumi")
+lunch <- fruit[c("apple","bhumi")]
+print(lunch)
+x <- c(-5:-1,NA,NA,1:3)
+x
+x[is.na(x)] <- mean(x, na.rm=TRUE)
+print(x)
+
+
+name <- c("Amy", "Bill", "Carl")
+DAD <- c(80, 65, 50)
+BDA <- c(70, 50, 80)
+gender <- as.factor(c("F", "M", "M","h"))
+nationality <- as.factor(c("IRL", "UK", "IRL"))
+age <- c(20, 21, 22) 
+student.df <- data.frame(name, age, gender, nationality, DAD, BDA)
+
+attributes(student.df)
+
+student.df['avg'] <- (student.df['DAD'] +student.df['BDA'])/2
+print(student.df['avg'])
+
+student.df['gender']
+student.df
+str(student.df)
+summary(student.df)
+student.df$name <- as.character(student.df$name)
+print(student.df$name)
+
+student.df <- rbind(student.df, c("Dennis", 23, "M", "UK", 50, 70))
+student.df['avg'] <- (student.df['DAD'] + student.df['BDA'])/2
+print(student.df['avg'])
+print(student.df)
+student.df['avg'] <- (student.df['DAD'] +student.df['BDA'])/2
+print(student.df['avg'])
+
+student.df$nationality <- as.character(student.df$nationality)
+print(student.df$nationality)
+
+student.df <- rbind(student.df, c("Bhumi", 22, "F", "UK", 55, 70))
+student.df <- rbind(student.df, c("Jyoti", 22, "F", "IRL", 55, 70))
+student.df <- rbind(student.df, c("komal", 23, "F", "IRL", 55, 70))
+student.df <- rbind(student.df, c("Aish", 23, "F", "IRL", 57, 70))
+student.df <- rbind(student.df, c("Namrata", 27, "F", "UK", 55, 70))
+?student.df['avg'] = ((student.df['DAD'] + student.df['BDA'])/2)
+print(student.df)
+
+student.df <- student.df[ , -7] 
+student.df$DAD <- as.numeric(student.df$DAD) 
+student.df$BDA <- as.numeric(student.df$BDA) 
+student.df$average <- (student.df$BDA + student.df$DAD)/2 
+
+student.df$nationality <- as.factor(student.df$nationality)
+print(student.df$nationality)
+
+levels(student.df$nationality)
+
+
+averages <- tapply(student.df$BDA, student.df$nationality, mean)
+averages
+
+table(student.df$nationality)
+barplot(table(student.df$nationality))
+
+
+minimum <- min(student.df$BDA)
+minimum
+max <- max(student.df$BDA)
+max
+sd <- sd(student.df$BDA)
+sd
+
+
+minimum <- min(student.df$DAD)
+minimum
+max <- max(student.df$DAD)
+max
+sd <- sd(student.df$DAD)
+sd
+mins <- c(min(student.df$BDA), min(student.df$DAD))
+max <-c(max(student.df$BDA),max(student.df$DAD)) 
+sd <- c(sd(student.df$BDA),sd(student.df$DAD))
+mean<- c(mean(student.df$BDA),mean(student.df$DAD))
+subjects <- data.frame(mins, max, mean, sd, row.names = c("BDA", "DAD"))
+names(subjects) <- c("min", "max", "mean", "sd")
+subjects
+
+data(mtcars)
+str(mtcars)
+summary(mtcars)
+?mtcars
+
+mtcars$cyl <- as.factor(mtcars$cyl)
+mtcars$am <- factor(mtcars$am, labels=c("Automatic", "Manual"), levels=c(0,1))
+
+str(mtcars$cyl)
+summary(mtcars$cyl)
+str(mtcars$am)
+summary(mtcars$am)
+hist(mtcars$mpg, breaks = 10)
+boxplot(mtcars$hp)
+borplot(table(mtcars$cyl))
+?coplot(table(mtcars$cyl))
+coplot(mpg ~ hp | cyl, data = mtcars, panel = panel.smooth, rows = 1)
+data(mtcars)
+str(mtcars)
+summary(mtcars)
+
+max <- max(mtcars$wt)
+max
+mtcars[mtcars$wt>=max, ]
+min <- min(mtcars$wt)
+min
+mtcars[mtcars$wt<=min, ]
+
+avg <- mean(mtcars$mpg)
+avg
+table(mtcars$am)
+MPG <- tapply(mtcars$mpg, mtcars$am, mean)
+MPG
+
+avg <- mean(mtcars$hp)
+avg
+aboveHp <- mtcars[mtcars$hp>avg, ]
+dim(aboveHp)
+
+dim(aboveHp[aboveHp$cyl == 6, ])
+
+temp <- aboveHp[aboveHp$cyl == 6, ] 
+dim(temp[temp$am == "Automatic", ])
+
+boxplot(mpg ~ cyl, data=mtcars)
+
+help.start()
+mysample <- mtcars[sample(1:nrow(mtcars), nrow(mtcars)/2, replace=FALSE),]
+
+automatic = mtcars[mtcars$am == "Automatic", ]
+dim(automatic)
+manuals = mtcars[mtcars$am == "Manual", ]
+dim(manuals)
+
+?plot
+plot(automatic$hp, automatic$mpg, main="MPG vs. HP for Automatics")
+plot(manuals$hp, manuals$mpg, main="MPG vs. HP for manuals")
+
+?lm
+lmAutomatic <- lm(mpg ~ hp, automatic)
+plot(automatic$hp, automatic$mpg, main="MPG vs HP for Automatics")
+abline(lmAutomatic)
+
+
+
+
+
+
+?library()
+library(packageName)
+install.packages(c("ggplot2", "ggthemes", "scales", "dplyr", "mice", "randomForest"))
+setwd("D:\\r program\\New folder")
+titanicData <- read.csv("titanic.csv", header=T, na.strings=c(""), stringsAsFactors =  T)
+?read.csv
+titanicData$Survived <- as.factor(titanicData$Survived)
+titanicData$Survived
+titanicData$Survived <- as.factor(titanicData$Survived)
+titanicData$Survived
+titanicData$Pclass <- as.factor(titanicData$Pclass)
+titanicData$Pclass
+titanicData$Name <- as.factor(titanicData$Name)
+titanicData$Name
+titanicData$Fare <- as.factor(titanicData$Fare)
+titanicData$Fare
+
+#Get these three details (class, fare, and name) of the two passengers.
+titanicData <- read.csv("titanic.csv", header=T, na.strings=c(""), stringsAsFactors =  T)
+titanicData
+install.packages("magrittr")
+library(magrittr)
+titanicDNAs <- titanicData %>%
+filter(PassengerId == 62 | PassengerId == 380)
+print(titanicDNAs[,c(3,10,4)])
+
+sapply(titanicData,function(x) sum(is.na(x)))
+?sapply
+
+# graphically inspect the data 
+install.packages("data.table") 
+install.packages("Amelia")
+library(Amelia)
+missmap(titanicData, main = "Missing values vs observed")
+
+#embarked(delete missing data)
+titanicData <- titanicData[!is.na(titanicData$Embarked), ]
+
+#embarked(recreate missing data)
+titanicData <- read.csv("titanic.csv", header=T, na.strings=c(""), stringsAsFactors =  T)
+titanicData
+
+paste("PassengerId: ", titanicData[is.na(titanicData$Embarked), 1], " needs to be corrected")
+
+library(dplyr) 
+embarked <- titanicData %>% 
+filter(PassengerId != 62 & PassengerId != 830) 
+print(embarked)
+
+
+library(ggplot2)
+library(ggthemes)
+library(scales)
+?ggplot(embarked, aes(x = Embarked, y = Fare, fill = factor(Pclass))) +
+geom_boxplot() +
+geom_hline(aes(yintercept=80),
+colour='red', linetype='dashed', lwd=2) +
+scale_y_continuous(labels=dollar_format()) +
+theme_few()
+
+titanicData$Embarked[c(62, 830)] <- 'C'
+sum(is.na(titanicData$Embarked)) 
+             
+#ImputedAgeMean
+ImputedAgeMeanNAs <- titanicData$Age
+ImputedAgeMeanNAs[is.na(ImputedAgeMeanNAs)] <- mean(ImputedAgeMean, na.rm = TRUE)
+print(mean(ImputedAgeMean, na.rm = TRUE))
+par(mfrow=c(1,2))
+hist(titanicData$Age) 
+hist(ImputedAgeMean)
+
+idx_na <- is.na(titanicData$Age) 
+age_train <- titanicData[-idx_na, ]
+age_test <- titanicData[idx_na, ]
+ageModel <-lm(Age~Pclass + Survived + SibSp, data = age_train) 
+age_test$Age <- predict(ageModel, newdata = age_test)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

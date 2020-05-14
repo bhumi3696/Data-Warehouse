@@ -1,0 +1,165 @@
+"Deaths from neoplasms by Sex, ICD 10 Diagnostic Group, statistical"
+"indicator and Year"
+
+" "," "," ","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"
+"Both sexes"
+" ","C00-C14 Lip, oral cavity and pharynx"
+" "," ","Underlying cause of death (Number)",126,123,127,128,163,169,163,167,186,175
+" "," ","Underlying cause of death (%)",1.6,1.5,1.5,1.6,1.9,2.0,1.9,1.9,2.1,1.9
+" ","C00-C97 Total Malignant neoplasm"
+" "," ","Underlying cause of death (Number)",7917,8199,8336,8135,8666,8571,8725,9022,8877,9023
+" "," ","Underlying cause of death (%)",100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+" ","C00-D48 Neoplasms"
+" "," ","Underlying cause of death (Number)",8121,8389,8523,8316,8871,8781,8961,9218,9072,9299
+" "," ","Underlying cause of death (%)",..,..,..,..,..,..,..,..,..,..
+" ","C15-C26 Digestive organs"
+" "," ","Underlying cause of death (Number)",2421,2535,2556,2509,2675,2592,2710,2792,2791,2802
+" "," ","Underlying cause of death (%)",30.6,30.9,30.7,30.8,30.9,30.2,31.1,30.9,31.4,31.1
+" ","C30-C39 Respiratory and intrathoracic organs"
+" "," ","Underlying cause of death (Number)",1768,1752,1804,1768,1919,1887,1895,2022,1903,1933
+" "," ","Underlying cause of death (%)",22.3,21.4,21.6,21.7,22.1,22.0,21.7,22.4,21.4,21.4
+" ","C40-C41 Bone and articular cartilage"
+" "," ","Underlying cause of death (Number)",25,19,28,19,19,15,32,26,25,32
+" "," ","Underlying cause of death (%)",0.3,0.2,0.3,0.2,0.2,0.2,0.4,0.3,0.3,0.4
+" ","C43-C44 Skin"
+" "," ","Underlying cause of death (Number)",174,202,192,228,227,205,242,238,223,267
+" "," ","Underlying cause of death (%)",2.2,2.5,2.3,2.8,2.6,2.4,2.8,2.6,2.5,3.0
+" ","C45-C49 Mesothelial and soft tissue"
+" "," ","Underlying cause of death (Number)",74,81,80,99,95,111,112,92,92,121
+" "," ","Underlying cause of death (%)",0.9,1.0,1.0,1.2,1.1,1.3,1.3,1.0,1.0,1.3
+" ","C50 Breast"
+" "," ","Underlying cause of death (Number)",614,742,665,659,697,698,713,740,680,733
+" "," ","Underlying cause of death (%)",7.8,9.0,8.0,8.1,8.0,8.1,8.2,8.2,7.7,8.1
+" ","C51-C58 Female genital organs"
+" "," ","Underlying cause of death (Number)",469,439,458,502,514,499,482,532,529,536
+" "," ","Underlying cause of death (%)",5.9,5.4,5.5,6.2,5.9,5.8,5.5,5.9,6.0,5.9
+" ","C60-C63 Male genital organs"
+" "," ","Underlying cause of death (Number)",528,522,559,544,574,541,514,556,537,537
+" "," ","Underlying cause of death (%)",6.7,6.4,6.7,6.7,6.6,6.3,5.9,6.2,6.0,6.0
+" ","C64-C68 Urinary tract"
+" "," ","Underlying cause of death (Number)",342,403,425,386,442,407,480,495,486,448
+" "," ","Underlying cause of death (%)",4.3,4.9,5.1,4.7,5.1,4.7,5.5,5.5,5.5,5.0
+" ","C69-C72 Eye, brain and other parts of central nervous system"
+" "," ","Underlying cause of death (Number)",247,283,271,244,265,294,260,305,335,327
+" "," ","Underlying cause of death (%)",3.1,3.5,3.3,3.0,3.1,3.4,3.0,3.4,3.8,3.6
+" ","C73-C75 Thyroid and other endocrine glands"
+" "," ","Underlying cause of death (Number)",34,36,28,38,42,39,38,43,47,45
+" "," ","Underlying cause of death (%)",0.4,0.4,0.3,0.5,0.5,0.5,0.4,0.5,0.5,0.5
+" ","C76-C80 Ill-defined, secondary, and unspecified sites"
+" "," ","Underlying cause of death (Number)",338,317,337,308,347,347,360,289,310,352
+" "," ","Underlying cause of death (%)",4.3,3.9,4.0,3.8,4.0,4.0,4.1,3.2,3.5,3.9
+" ","C81-C96 Lymphoid, haematopoietic and related tissue"
+" "," ","Underlying cause of death (Number)",645,669,687,622,687,767,722,725,733,714
+" "," ","Underlying cause of death (%)",8.1,8.2,8.2,7.6,7.9,8.9,8.3,8.0,8.3,7.9
+" ","C97 Independent(primary) multiple sites"
+" "," ","Underlying cause of death (Number)",112,76,119,81,..,..,2,..,0,1
+" "," ","Underlying cause of death (%)",1.4,0.9,1.4,1.0,..,..,0.0,..,0.0,0.0
+"Male"
+" ","C00-C14 Lip, oral cavity and pharynx"
+" "," ","Underlying cause of death (Number)",89,98,94,83,116,117,117,116,140,116
+" "," ","Underlying cause of death (%)",2.1,2.3,2.1,1.9,2.5,2.6,2.5,2.5,3.0,2.4
+" ","C00-C97 Total Malignant neoplasm"
+" "," ","Underlying cause of death (Number)",4193,4301,4574,4270,4592,4569,4606,4724,4742,4754
+" "," ","Underlying cause of death (%)",100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+" ","C00-D48 Neoplasms"
+" "," ","Underlying cause of death (Number)",4298,4400,4665,4369,4706,4677,4742,4839,4833,4902
+" "," ","Underlying cause of death (%)",..,..,..,..,..,..,..,..,..,..
+" ","C15-C26 Digestive organs"
+" "," ","Underlying cause of death (Number)",1376,1444,1498,1431,1552,1494,1554,1619,1657,1634
+" "," ","Underlying cause of death (%)",32.8,33.6,32.8,33.5,33.8,32.7,33.7,34.3,34.9,34.4
+" ","C30-C39 Respiratory and intrathoracic organs"
+" "," ","Underlying cause of death (Number)",1099,1046,1114,1035,1148,1138,1131,1137,1103,1076
+" "," ","Underlying cause of death (%)",26.2,24.3,24.4,24.2,25.0,24.9,24.6,24.1,23.3,22.6
+" ","C40-C41 Bone and articular cartilage"
+" "," ","Underlying cause of death (Number)",15,11,17,9,12,9,22,15,17,18
+" "," ","Underlying cause of death (%)",0.4,0.3,0.4,0.2,0.3,0.2,0.5,0.3,0.4,0.4
+" ","C43-C44 Skin"
+" "," ","Underlying cause of death (Number)",93,125,127,142,129,121,146,131,133,166
+" "," ","Underlying cause of death (%)",2.2,2.9,2.8,3.3,2.8,2.6,3.2,2.8,2.8,3.5
+" ","C45-C49 Mesothelial and soft tissue"
+" "," ","Underlying cause of death (Number)",44,52,50,61,55,73,61,58,59,73
+" "," ","Underlying cause of death (%)",1.0,1.2,1.1,1.4,1.2,1.6,1.3,1.2,1.2,1.5
+" ","C50 Breast"
+" "," ","Underlying cause of death (Number)",3,6,3,10,7,9,9,5,2,7
+" "," ","Underlying cause of death (%)",0.1,0.1,0.1,0.2,0.2,0.2,0.2,0.1,0.0,0.1
+" ","C51-C58 Female genital organs"
+" "," ","Underlying cause of death (Number)",0,0,0,0,0,0,0,..,0,0
+" "," ","Underlying cause of death (%)",0.0,0.0,0.0,0.0,0.0,0.0,0.0,..,0.0,0.0
+" ","C60-C63 Male genital organs"
+" "," ","Underlying cause of death (Number)",528,522,559,544,574,541,514,556,537,537
+" "," ","Underlying cause of death (%)",12.6,12.1,12.2,12.7,12.5,11.8,11.2,11.8,11.3,11.3
+" ","C64-C68 Urinary tract"
+" "," ","Underlying cause of death (Number)",219,266,292,260,288,273,322,313,326,300
+" "," ","Underlying cause of death (%)",5.2,6.2,6.4,6.1,6.3,6.0,7.0,6.6,6.9,6.3
+" ","C69-C72 Eye, brain and other parts of central nervous system"
+" "," ","Underlying cause of death (Number)",131,163,164,144,154,172,152,177,189,209
+" "," ","Underlying cause of death (%)",3.1,3.8,3.6,3.4,3.4,3.8,3.3,2.0,4.0,4.4
+" ","C73-C75 Thyroid and other endocrine glands"
+" "," ","Underlying cause of death (Number)",14,12,19,18,18,14,16,20,22,20
+" "," ","Underlying cause of death (%)",0.3,0.3,0.4,0.4,0.4,0.3,0.3,0.4,0.5,0.4
+" ","C76-C80 Ill-defined, secondary, and unspecified sites"
+" "," ","Underlying cause of death (Number)",159,143,173,136,156,172,179,144,150,170
+" "," ","Underlying cause of death (%)",3.8,3.3,3.8,3.2,3.4,3.8,3.9,3.0,3.2,3.6
+" ","C81-C96 Lymphoid, haematopoietic and related tissue"
+" "," ","Underlying cause of death (Number)",355,371,399,343,383,436,382,433,407,427
+" "," ","Underlying cause of death (%)",8.5,8.6,8.7,8.0,8.3,9.5,8.3,9.2,8.6,9.0
+" ","C97 Independent(primary) multiple sites"
+" "," ","Underlying cause of death (Number)",68,42,65,54,..,..,1,..,0,1
+" "," ","Underlying cause of death (%)",1.6,1.0,1.4,1.3,..,..,0.0,..,0.0,0.0
+"Female"
+" ","C00-C14 Lip, oral cavity and pharynx"
+" "," ","Underlying cause of death (Number)",37,25,33,45,47,52,46,51,46,59
+" "," ","Underlying cause of death (%)",1.0,0.6,0.9,1.2,1.2,1.3,1.1,1.2,1.1,1.4
+" ","C00-C97 Total Malignant neoplasm"
+" "," ","Underlying cause of death (Number)",3724,3898,3762,3865,4074,4002,4119,4298,4135,4269
+" "," ","Underlying cause of death (%)",100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+" ","C00-D48 Neoplasms"
+" "," ","Underlying cause of death (Number)",3823,3989,3858,3947,4165,4104,4219,4379,4239,4397
+" "," ","Underlying cause of death (%)",..,..,..,..,..,..,..,..,..,..
+" ","C15-C26 Digestive organs"
+" "," ","Underlying cause of death (Number)",1045,1091,1058,1078,1123,1098,1156,1173,1134,1168
+" "," ","Underlying cause of death (%)",28.1,28.0,28.1,27.9,27.6,27.4,28.1,27.3,27.4,27.4
+" ","C30-C39 Respiratory and intrathoracic organs"
+" "," ","Underlying cause of death (Number)",669,706,690,733,771,749,764,885,800,857
+" "," ","Underlying cause of death (%)",18.0,18.1,18.3,19.0,18.9,18.7,18.5,20.6,19.3,20.1
+" ","C40-C41 Bone and articular cartilage"
+" "," ","Underlying cause of death (Number)",10,8,11,10,7,6,10,11,8,14
+" "," ","Underlying cause of death (%)",0.3,0.2,0.3,0.3,0.2,0.1,0.2,0.3,0.2,0.3
+" ","C43-C44 Skin"
+" "," ","Underlying cause of death (Number)",81,77,65,86,98,84,96,107,90,101
+" "," ","Underlying cause of death (%)",2.2,2.0,1.7,2.2,2.4,2.1,2.3,2.5,2.2,2.4
+" ","C45-C49 Mesothelial and soft tissue"
+" "," ","Underlying cause of death (Number)",30,29,30,38,40,38,51,34,33,48
+" "," ","Underlying cause of death (%)",0.8,0.7,0.8,1.0,1.0,0.9,1.2,0.8,0.8,1.1
+" ","C50 Breast"
+" "," ","Underlying cause of death (Number)",611,736,662,649,690,689,704,735,678,726
+" "," ","Underlying cause of death (%)",16.4,18.9,17.6,16.8,16.9,17.2,17.1,17.1,16.4,17.0
+" ","C51-C58 Female genital organs"
+" "," ","Underlying cause of death (Number)",469,439,458,502,514,499,482,532,529,536
+" "," ","Underlying cause of death (%)",12.6,11.3,12.2,13.0,12.6,12.5,11.7,12.4,12.8,12.6
+" ","C60-C63 Male genital organs"
+" "," ","Underlying cause of death (Number)",0,0,0,0,0,0,0,..,0,0
+" "," ","Underlying cause of death (%)",0.0,0.0,0.0,0.0,0.0,0.0,0.0,..,0.0,0.0
+" ","C64-C68 Urinary tract"
+" "," ","Underlying cause of death (Number)",123,137,133,126,154,134,158,182,160,148
+" "," ","Underlying cause of death (%)",3.3,3.5,3.5,3.3,3.8,3.3,3.8,4.2,3.9,3.5
+" ","C69-C72 Eye, brain and other parts of central nervous system"
+" "," ","Underlying cause of death (Number)",116,120,107,100,111,122,108,128,146,118
+" "," ","Underlying cause of death (%)",3.1,3.1,2.8,2.6,2.7,3.0,2.6,1.4,3.5,2.8
+" ","C73-C75 Thyroid and other endocrine glands"
+" "," ","Underlying cause of death (Number)",20,24,9,20,24,25,22,23,25,25
+" "," ","Underlying cause of death (%)",0.5,0.6,0.2,0.5,0.6,0.6,0.5,0.5,0.6,0.6
+" ","C76-C80 Ill-defined, secondary, and unspecified sites"
+" "," ","Underlying cause of death (Number)",179,174,164,172,191,175,181,145,160,182
+" "," ","Underlying cause of death (%)",4.8,4.5,4.4,4.5,4.7,4.4,4.4,3.4,3.9,4.3
+" ","C81-C96 Lymphoid, haematopoietic and related tissue"
+" "," ","Underlying cause of death (Number)",290,298,288,279,304,331,340,292,326,287
+" "," ","Underlying cause of death (%)",7.8,7.6,7.7,7.2,7.5,8.3,8.3,6.8,7.9,6.7
+" ","C97 Independent(primary) multiple sites"
+" "," ","Underlying cause of death (Number)",44,34,54,27,..,..,1,..,0,0
+" "," ","Underlying cause of death (%)",1.2,0.9,1.4,0.7,..,..,0.0,..,0.0,0.0
+
+"Data up to and including 2015 is final by the year of occurrence. "
+"Data for years after this are provisional by date of registration and "
+"subject to revision. "
+

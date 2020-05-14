@@ -1,0 +1,106 @@
+install.packages("rvest")
+install.packages("dplyr")
+install.packages("XML")
+library("XML")
+library("dplyr")
+library("rvest")
+product_table <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&image-size=small&image=model&offset=0&page-size=6863")
+product_category <- product_table %>%html_nodes(".item-heading .link")%>%html_text()
+product_type  <- product_table %>%html_nodes(".item-heading .link")%>%html_text()
+product_price <- product_table%>%html_nodes(".regular")%>%html_text()
+product_colour <- product_table%>%html_nodes(".ng-scope+ .ng-scope .ng-scope .ng-binding , .ng-scope:nth-child(7) .product-name , .product-item:nth-child(1) .product-name .ng-binding")%>%html_text()
+product_category
+product_price
+product_colour
+a <- data.frame(product_category,product_price,product_review)
+a
+a <- data.frame(product_category,product_price)
+a
+        
+
+#product details
+product_table <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&image-size=small&image=model&offset=0&page-size=6863",na.strings= c("6863", "NA", " ", ""))
+product_category <- product_table %>%html_nodes(".item-heading .link")%>%html_text()
+product_colour  <- product_table %>%html_nodes(".list-swatches")%>%html_text()
+product_price <- product_table%>%html_nodes(".regular")%>%html_text()
+product_category
+product_price
+product_colour
+product_details <- data.frame(product_category,product_price,product_colour)
+product_details
+#newarrival 
+product_category <- product_table %>%html_nodes(".item-heading .link")%>%html_text()
+product_arrival <- product_table%>%html_nodes(".new-product")%>%html_text()
+#merge(, data.frame(product_arrival, row.names=NULL), by = 0, all = TRUE)[-1]
+
+merge(data.frame(product_category, row.names=NULL), data.frame(product_arrival, row.names=NULL), by = 0, all = TRUE)[-1]
+product_category
+product_arrival
+new_arrival <- data.frame(product_category, product_arrival)
+new_arrival
+
+#productSize
+product_category <- product_table %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize2 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=7_2_1_womenswear&image-size=small&image=model&offset=0&page-size=282")
+product_size2 <- product_tableSize2 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize4 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=11_4_1_womenswear&image-size=small&image=model&offset=0&page-size=282")
+product_size4 <- product_tableSize4 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize6 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=15_6_1_womenswear&image-size=small&image=model&offset=0&page-size=3983")
+product_size6 <- product_tableSize6 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize9 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=19_8_1_womenswear&image-size=small&image=model&offset=0&page-size=4128")
+product_size9 <- product_tableSize9 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize10 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=23_10_1_womenswear&image-size=small&image=model&offset=0&page-size=4016")
+product_size10 <- product_tableSize10 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize12 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=27_12_1_womenswear&image-size=small&image=model&offset=0&page-size=3790")
+product_size12 <- product_tableSize12 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize14 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=30_14_1_womenswear&image-size=small&image=model&offset=0&page-size=3509")
+product_size14 <- product_tableSize14 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize16 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=33_16_1_womenswear&image-size=small&image=model&offset=0&page-size=3421")
+product_size16 <- product_tableSize16 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize18 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=35_18_1_womenswear&image-size=small&image=model&offset=0&page-size=3464")
+product_size18 <- product_tableSize18 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize20 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=37_20_1_womenswear&image-size=small&image=model&offset=0&page-size=3440")
+product_size20 <- product_tableSize20 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize22 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=39_22_1_womenswear&image-size=small&image=model&offset=0&page-size=2506")
+product_size22 <- product_tableSize22 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize24 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=41_24_1_womenswear&image-size=small&image=model&offset=0&page-size=2556")
+product_size24 <- product_tableSize24 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize26 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=43_26_1_womenswear&image-size=small&image=model&offset=0&page-size=287")
+product_size26 <- product_tableSize26 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize28 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=45_28_1_womenswear&image-size=small&image=model&offset=0&page-size=288")
+product_size28 <- product_tableSize28 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize30 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=47_30_1_womenswear&image-size=small&image=model&offset=0&page-size=196")
+product_size30 <- product_tableSize30 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize32 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=49_32_1_womenswear&image-size=small&image=model&offset=0&page-size=125")
+product_size32 <- product_tableSize32 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize34 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=51_34_1_womenswear&image-size=small&image=model&offset=0&page-size=77")
+product_size34 <- product_tableSize34 %>%html_nodes(".item-heading .link")%>%html_text()
+product_tableSize36 <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-product/view-all.html?sort=stock&sizes=53_36_1_womenswear&image-size=small&image=model&offset=0&page-size=77")
+product_size36 <- product_tableSize36 %>%html_nodes(".item-heading .link")%>%html_text()
+product_category
+product_size2
+product_size4
+product_size6
+product_size8
+product_size10
+product_size12
+product_size14
+product_size16
+product_size18
+product_size20
+product_size22
+product_size24
+product_size26
+product_size28
+product_size30
+product_size32
+product_size34
+product_size36
+#trend
+product_category <- product_table %>%html_nodes(".item-heading .link")%>%html_text()
+product_categoryTop <- read_html("https://www2.hm.com/en_ie/ladies/shop-by-concept/trend/tops.html?sort=stock&image-size=small&image=model&offset=0&page-size=164")
+trend_top <- product_categoryTop %>%html_nodes(".item-heading .link")%>%html_text()
+product_category
+trend_top
+
+write.table(MyData, file = "MyData.csv",row.names=product_category,product_price,product_colour, na="",col.names=FALSE, sep=",")

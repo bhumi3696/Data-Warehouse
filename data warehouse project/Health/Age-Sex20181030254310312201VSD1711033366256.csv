@@ -1,0 +1,251 @@
+"Underlying cause of death (Number) by Sex, Age Group, ICD 10 Diagnostic"
+"Group and Year"
+
+" "," "," ","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"
+"Male"
+" ","All ages"
+" "," ","I00-I02 Acute Rheumatic fever",1,0,0,4,2,1,5,2,4,1
+" "," ","I00-I99 Diseases of the circulatory system",4984,4967,4777,4870,4614,4779,4791,4448,4741,4768
+" "," ","I05-I09 Chronic rheumatic heart diseases",13,13,10,11,17,19,13,20,21,14
+" "," ","I10-I15 Hypertensive diseases",117,130,89,114,111,123,117,98,110,118
+" "," ","I20-I25 Ischaemic heart diseases",3020,2933,2864,2821,2645,2753,2707,2498,2625,2649
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",63,82,66,81,73,85,63,80,65,72
+" "," ","I30-I52 Other forms of heart disease",657,639,627,740,681,734,781,750,830,882
+" "," ","I60-I69 Cerebrovascular diseases",805,881,843,822,828,773,803,752,831,771
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",276,273,252,244,231,254,268,222,228,244
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",31,13,26,30,26,33,32,25,25,17
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",1,3,0,3,0,4,2,1,2,0
+" ","0 - 14 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,0,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",5,3,3,2,3,3,1,3,2,2
+" "," ","I05-I09 Chronic rheumatic heart diseases",0,0,0,0,0,0,0,0,0,0
+" "," ","I10-I15 Hypertensive diseases",0,0,0,0,0,0,0,0,0,0
+" "," ","I20-I25 Ischaemic heart diseases",0,0,0,0,0,0,0,0,0,0
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",0,0,1,1,0,0,0,0,0,0
+" "," ","I30-I52 Other forms of heart disease",4,3,2,1,3,1,1,3,2,2
+" "," ","I60-I69 Cerebrovascular diseases",1,0,0,0,0,1,0,0,0,0
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",0,0,0,0,0,1,0,0,0,0
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",0,0,0,0,0,0,0,0,0,0
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,0,0,0,0
+" ","15 - 24 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,0,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",13,8,4,4,0,12,5,10,7,5
+" "," ","I05-I09 Chronic rheumatic heart diseases",0,0,0,0,0,0,0,0,0,0
+" "," ","I10-I15 Hypertensive diseases",0,0,0,0,0,0,0,0,0,0
+" "," ","I20-I25 Ischaemic heart diseases",2,2,0,0,0,1,1,0,0,0
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",0,0,0,1,0,1,1,1,0,0
+" "," ","I30-I52 Other forms of heart disease",8,3,2,1,0,7,3,6,5,2
+" "," ","I60-I69 Cerebrovascular diseases",3,3,1,2,0,1,0,3,0,1
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",0,0,1,0,0,1,0,0,1,1
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",0,0,0,0,0,1,0,0,1,1
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,0,0,0,0
+" ","25 - 34 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,0,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",24,21,26,21,25,26,23,22,23,19
+" "," ","I05-I09 Chronic rheumatic heart diseases",1,0,0,0,0,0,0,0,0,0
+" "," ","I10-I15 Hypertensive diseases",1,0,0,0,1,0,0,2,0,0
+" "," ","I20-I25 Ischaemic heart diseases",7,4,8,3,4,11,6,8,4,3
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",0,3,2,5,0,1,2,3,2,0
+" "," ","I30-I52 Other forms of heart disease",8,9,13,8,11,7,5,6,14,12
+" "," ","I60-I69 Cerebrovascular diseases",4,4,3,4,5,3,7,3,1,1
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",1,1,0,1,4,3,1,0,1,3
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",2,0,0,0,0,1,2,0,1,0
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,0,0,0,0
+" ","35 - 44 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,1,0,0,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",81,87,94,84,75,77,80,69,78,71
+" "," ","I05-I09 Chronic rheumatic heart diseases",0,0,2,0,0,0,0,0,0,0
+" "," ","I10-I15 Hypertensive diseases",1,0,1,1,3,4,1,2,0,1
+" "," ","I20-I25 Ischaemic heart diseases",47,40,48,46,38,36,38,38,44,37
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",3,2,2,4,3,3,4,4,0,3
+" "," ","I30-I52 Other forms of heart disease",13,14,22,15,15,17,15,9,22,23
+" "," ","I60-I69 Cerebrovascular diseases",10,26,16,11,13,13,16,10,8,5
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",6,4,2,5,1,3,5,4,2,0
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",1,1,1,2,1,1,1,2,2,2
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,0,0,0,0
+" ","45 - 54 years"
+" "," ","I00-I02 Acute Rheumatic fever",1,0,0,1,0,0,0,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",255,242,247,252,246,257,232,216,235,219
+" "," ","I05-I09 Chronic rheumatic heart diseases",0,0,0,0,0,1,0,0,0,2
+" "," ","I10-I15 Hypertensive diseases",6,7,2,9,4,2,7,2,4,4
+" "," ","I20-I25 Ischaemic heart diseases",179,153,156,167,167,165,145,144,150,130
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",6,9,6,3,3,6,3,9,4,4
+" "," ","I30-I52 Other forms of heart disease",29,30,32,40,33,41,40,27,36,37
+" "," ","I60-I69 Cerebrovascular diseases",26,34,36,23,33,32,28,25,27,27
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",7,8,12,7,5,8,7,5,12,12
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",1,1,3,2,1,2,1,4,2,3
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,1,0,0,0
+" ","55 - 64 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,2,0,1,1,1,1,0
+" "," ","I00-I99 Diseases of the circulatory system",605,576,527,556,508,511,514,518,489,512
+" "," ","I05-I09 Chronic rheumatic heart diseases",0,3,1,3,1,4,1,1,2,1
+" "," ","I10-I15 Hypertensive diseases",6,15,7,13,12,7,3,8,3,3
+" "," ","I20-I25 Ischaemic heart diseases",446,398,384,362,329,344,328,360,326,345
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",8,15,10,17,13,17,13,4,11,9
+" "," ","I30-I52 Other forms of heart disease",60,65,55,68,68,65,82,66,66,61
+" "," ","I60-I69 Cerebrovascular diseases",52,64,47,62,60,51,62,53,63,69
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",26,15,18,22,18,16,17,18,15,18
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",7,1,5,7,7,6,7,7,2,6
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,0,0,0,0
+" ","65 - 74 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,1,1,0,2,1,0,0
+" "," ","I00-I99 Diseases of the circulatory system",1063,1034,1009,992,914,961,983,894,933,951
+" "," ","I05-I09 Chronic rheumatic heart diseases",3,1,2,1,3,4,4,11,3,4
+" "," ","I10-I15 Hypertensive diseases",23,21,10,16,13,28,14,12,14,11
+" "," ","I20-I25 Ischaemic heart diseases",700,673,662,634,585,630,616,539,584,613
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",21,16,14,22,20,18,13,22,14,23
+" "," ","I30-I52 Other forms of heart disease",99,104,98,109,94,105,125,128,130,131
+" "," ","I60-I69 Cerebrovascular diseases",129,146,158,130,130,108,133,125,134,122
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",78,68,59,69,59,55,69,49,47,45
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",10,4,6,10,9,11,6,7,7,2
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,1,0,0,0,2,1,0,0,0
+" ","75 - 84 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,2,0,2,0
+" "," ","I00-I99 Diseases of the circulatory system",1709,1765,1641,1680,1573,1558,1546,1435,1565,1560
+" "," ","I05-I09 Chronic rheumatic heart diseases",7,6,2,6,7,4,7,5,12,6
+" "," ","I10-I15 Hypertensive diseases",36,41,41,26,39,35,34,34,30,36
+" "," ","I20-I25 Ischaemic heart diseases",991,1014,939,945,882,857,863,793,860,829
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",19,24,22,20,20,26,19,24,21,25
+" "," ","I30-I52 Other forms of heart disease",224,221,203,259,215,222,233,227,244,288
+" "," ","I60-I69 Cerebrovascular diseases",321,342,333,331,315,312,288,267,301,277
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",103,113,93,85,89,93,89,83,85,96
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",7,4,8,6,6,9,11,2,8,3
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",1,0,0,2,0,0,0,0,2,0
+" ","85 years and over"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,0,0,1,1
+" "," ","I00-I99 Diseases of the circulatory system",1229,1231,1226,1279,1270,1374,1407,1281,1409,1429
+" "," ","I05-I09 Chronic rheumatic heart diseases",2,3,3,1,6,6,1,3,4,1
+" "," ","I10-I15 Hypertensive diseases",44,46,28,49,39,47,58,38,59,63
+" "," ","I20-I25 Ischaemic heart diseases",648,649,667,664,640,709,710,616,657,692
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",6,13,9,8,14,13,8,13,13,8
+" "," ","I30-I52 Other forms of heart disease",212,190,200,239,242,269,277,278,311,326
+" "," ","I60-I69 Cerebrovascular diseases",259,262,249,259,272,252,269,266,297,269
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",55,64,67,55,55,74,80,63,65,69
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",3,2,3,3,2,2,4,3,2,0
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,2,0,1,0,2,0,1,0,0
+"Female"
+" ","All ages"
+" "," ","I00-I02 Acute Rheumatic fever",2,3,0,2,0,2,3,0,1,1
+" "," ","I00-I99 Diseases of the circulatory system",4972,4989,4730,4724,4622,4701,4682,4404,4630,4438
+" "," ","I05-I09 Chronic rheumatic heart diseases",30,38,51,39,32,40,30,36,46,48
+" "," ","I10-I15 Hypertensive diseases",197,202,175,208,197,226,191,183,231,224
+" "," ","I20-I25 Ischaemic heart diseases",2355,2252,2152,2050,2062,2005,1935,1785,1867,1756
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",97,106,109,106,106,102,97,115,120,111
+" "," ","I30-I52 Other forms of heart disease",751,861,766,809,816,893,992,927,1015,987
+" "," ","I60-I69 Cerebrovascular diseases",1273,1261,1211,1275,1165,1162,1156,1100,1089,1055
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",229,228,224,207,209,238,227,223,229,228
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",36,37,40,25,34,33,50,31,30,27
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",2,1,2,3,1,0,1,4,2,1
+" ","0 - 14 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,0,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",1,2,1,2,2,1,5,1,0,1
+" "," ","I05-I09 Chronic rheumatic heart diseases",0,0,0,0,0,0,0,0,0,0
+" "," ","I10-I15 Hypertensive diseases",0,0,0,0,0,0,0,0,0,0
+" "," ","I20-I25 Ischaemic heart diseases",0,0,0,0,0,0,0,0,0,0
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",1,0,0,0,0,0,1,0,0,0
+" "," ","I30-I52 Other forms of heart disease",0,0,0,2,1,1,4,1,0,0
+" "," ","I60-I69 Cerebrovascular diseases",0,2,1,0,0,0,0,0,0,1
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",0,0,0,0,1,0,0,0,0,0
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",0,0,0,0,0,0,0,0,0,0
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,0,0,0,0
+" ","15 - 24 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,0,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",8,2,6,3,2,1,7,5,3,4
+" "," ","I05-I09 Chronic rheumatic heart diseases",0,0,0,0,0,0,0,0,0,0
+" "," ","I10-I15 Hypertensive diseases",0,0,0,0,0,0,0,0,0,0
+" "," ","I20-I25 Ischaemic heart diseases",1,0,0,0,0,0,0,0,0,0
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",1,0,1,1,0,0,2,0,1,1
+" "," ","I30-I52 Other forms of heart disease",4,1,2,2,0,1,3,5,1,3
+" "," ","I60-I69 Cerebrovascular diseases",2,1,2,0,1,0,1,0,0,0
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",0,0,0,0,0,0,0,0,0,0
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",0,0,1,0,1,0,1,0,1,0
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,0,0,0,0
+" ","25 - 34 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,0,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",15,14,16,11,11,12,12,4,13,9
+" "," ","I05-I09 Chronic rheumatic heart diseases",0,1,0,1,1,0,0,0,0,0
+" "," ","I10-I15 Hypertensive diseases",0,0,0,2,0,1,0,0,0,0
+" "," ","I20-I25 Ischaemic heart diseases",2,4,6,3,1,2,4,0,3,0
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",1,0,4,0,2,3,2,1,1,3
+" "," ","I30-I52 Other forms of heart disease",2,5,3,1,4,2,4,0,1,0
+" "," ","I60-I69 Cerebrovascular diseases",7,4,3,4,3,3,2,3,5,4
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",2,0,0,0,0,1,0,0,1,0
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",1,0,0,0,0,0,0,0,2,2
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,0,0,0,0
+" ","35 - 44 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,0,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",33,35,23,36,26,31,19,26,38,27
+" "," ","I05-I09 Chronic rheumatic heart diseases",0,0,0,0,0,0,0,0,0,0
+" "," ","I10-I15 Hypertensive diseases",1,1,0,1,1,0,1,0,0,2
+" "," ","I20-I25 Ischaemic heart diseases",14,10,7,6,7,10,4,6,16,7
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",5,4,2,3,2,5,1,2,4,2
+" "," ","I30-I52 Other forms of heart disease",2,7,3,10,7,8,7,11,3,3
+" "," ","I60-I69 Cerebrovascular diseases",9,10,8,14,7,6,4,6,13,13
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",1,2,1,2,1,1,0,0,1,0
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",1,1,2,0,1,1,2,1,1,0
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,0,0,0,0
+" ","45 - 54 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,0,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",88,94,91,86,105,79,76,54,91,73
+" "," ","I05-I09 Chronic rheumatic heart diseases",1,1,0,0,0,2,1,0,3,1
+" "," ","I10-I15 Hypertensive diseases",2,5,2,3,2,3,4,0,3,2
+" "," ","I20-I25 Ischaemic heart diseases",29,26,37,25,35,24,32,25,33,25
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",4,5,5,6,7,6,4,1,8,7
+" "," ","I30-I52 Other forms of heart disease",6,21,13,19,22,16,15,8,20,17
+" "," ","I60-I69 Cerebrovascular diseases",41,29,29,32,30,27,16,16,17,14
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",2,3,3,1,5,1,1,0,3,3
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",3,4,2,0,4,0,3,4,4,4
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,0,0,0,0
+" ","55 - 64 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,1,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",201,178,220,173,184,187,179,190,166,168
+" "," ","I05-I09 Chronic rheumatic heart diseases",3,4,6,1,2,4,2,0,1,2
+" "," ","I10-I15 Hypertensive diseases",4,7,9,6,10,5,6,7,5,4
+" "," ","I20-I25 Ischaemic heart diseases",105,81,110,81,83,93,77,86,91,85
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",7,8,12,12,8,10,9,10,12,10
+" "," ","I30-I52 Other forms of heart disease",28,25,21,24,18,23,31,32,22,31
+" "," ","I60-I69 Cerebrovascular diseases",43,43,47,39,52,44,40,42,28,30
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",7,7,12,7,7,3,10,11,7,5
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",4,3,2,3,4,5,3,2,0,1
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,1,0,0,0,0,0,0,0
+" ","65 - 74 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,2,0,0,0,0
+" "," ","I00-I99 Diseases of the circulatory system",505,447,466,473,435,427,418,442,429,0
+" "," ","I05-I09 Chronic rheumatic heart diseases",12,6,10,8,10,3,3,12,12,0
+" "," ","I10-I15 Hypertensive diseases",19,15,5,13,13,13,10,13,14,0
+" "," ","I20-I25 Ischaemic heart diseases",258,218,235,230,205,218,195,206,189,0
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",20,18,12,13,27,12,22,23,29,0
+" "," ","I30-I52 Other forms of heart disease",61,57,66,64,61,44,56,67,61,0
+" "," ","I60-I69 Cerebrovascular diseases",101,106,112,121,100,104,99,89,99,0
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",27,21,19,16,16,26,22,24,19,0
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",7,6,7,8,3,5,11,7,6,0
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,0,0,0,0,0,0,1,0,0
+" ","75 - 84 years"
+" "," ","I00-I02 Acute Rheumatic fever",0,0,0,0,0,0,2,0,1,0
+" "," ","I00-I99 Diseases of the circulatory system",1704,1651,1502,1419,1325,1361,1265,1172,1165,437
+" "," ","I05-I09 Chronic rheumatic heart diseases",11,11,18,18,12,21,15,15,17,11
+" "," ","I10-I15 Hypertensive diseases",56,52,56,53,38,62,45,39,54,10
+" "," ","I20-I25 Ischaemic heart diseases",815,784,670,625,611,589,512,478,451,205
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",38,47,39,43,27,40,25,34,37,21
+" "," ","I30-I52 Other forms of heart disease",252,258,214,220,209,236,263,217,233,62
+" "," ","I60-I69 Cerebrovascular diseases",431,401,402,375,354,321,312,309,295,97
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",89,81,90,77,68,84,70,69,68,26
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",12,16,13,8,6,8,21,10,8,5
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",0,1,0,0,0,0,0,1,1,0
+" ","85 years and over"
+" "," ","I00-I02 Acute Rheumatic fever",2,3,0,2,0,0,0,0,0,1
+" "," ","I00-I99 Diseases of the circulatory system",2417,2566,2405,2521,2532,2602,2701,2510,2725,2577
+" "," ","I05-I09 Chronic rheumatic heart diseases",3,15,17,11,7,10,9,9,13,12
+" "," ","I10-I15 Hypertensive diseases",115,122,103,130,133,142,125,124,155,154
+" "," ","I20-I25 Ischaemic heart diseases",1131,1129,1087,1080,1120,1069,1111,984,1084,970
+" "," ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation",20,24,34,28,33,26,31,44,28,33
+" "," ","I30-I52 Other forms of heart disease",396,487,444,467,494,562,609,586,674,666
+" "," ","I60-I69 Cerebrovascular diseases",639,665,607,690,618,657,682,635,632,608
+" "," ","I70-I179 Diseases of the arteries, arterioles and capillaries",101,114,99,104,111,122,124,119,130,127
+" "," ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",8,7,13,6,15,14,9,7,8,5
+" "," ","I95-I99 Other and unspecified disorders of the circulatory system",2,0,1,3,1,0,1,2,1,1
+
+"Data up to and including 2015 is final by the year of occurrence. "
+"Data for years after this are provisional by date of registration and "
+"subject to revision. "
+

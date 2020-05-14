@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Diseases", "Diseases\Diseases.dtproj", "{54C6D2D9-1AE7-4A61-AB2B-A93DD5FCF7F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54C6D2D9-1AE7-4A61-AB2B-A93DD5FCF7F2}.Development|Default.ActiveCfg = Development
+		{54C6D2D9-1AE7-4A61-AB2B-A93DD5FCF7F2}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC07A318-34DF-42DA-9B4A-F15236CF7D0D}
+	EndGlobalSection
+EndGlobal

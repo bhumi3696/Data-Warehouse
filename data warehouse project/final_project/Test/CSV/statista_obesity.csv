@@ -1,0 +1,15 @@
+Obesity_id,Obesity_Gender,Obesity_Year,Obesity_Percentage
+1,Females,2010,26
+2,Males,2010,26
+3,Females,2011,26
+4,Males,2011,24
+5,Females,2012,25
+6,Males,2012,24
+7,Females,2013,24
+8,Males,2013,26
+9,Females,2014,27
+10,Males,2014,24
+11,Females,2015,27
+12,Males,2015,27
+13,Females,2016**,23
+14,Males,2016**,24

@@ -1,0 +1,4 @@
+install.packages()
+setwd("D:/data warehouse project/final_project")
+data <-download.file("https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/adhocs/007824deathsfromdiseasesofthecardiovascularsystemandischaemicheartdisease2010to2016/cvddeathsbyagesexmonth.xls" , destfile = "heart_diseases.csv")
+data

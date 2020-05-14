@@ -1,0 +1,276 @@
+\documentclass{article}[a4paper,12pt]
+
+\usepackage{url}
+\usepackage[a4paper, margin=1in]{geometry} %% margins
+\usepackage{pdflscape} 
+\usepackage{longtable}
+
+\title{DWBI Project (60\%): Architect, Populate and Explore a Data Warehouse for Business Intelligence}
+\author{MSc/PGDip Data Analytics; National College of Ireland}
+\date{Last Updated: \today}
+
+\begin{document}
+
+\maketitle
+
+\section{Overview}
+This project will assess your ability to apply the theories, methodologies and strategies tackled in the course to successfully implement a data warehouse to support business intelligence queries. It is \textbf{due week 11} (see Moodle for exact dates). Your data warehouse should meet the following minimum requirements:
+\begin{itemize}
+\item At least 3 sources of relatable data must be included, where 1 must be sourced from Statista  
+\item At least 1 source of data must be structured 
+\item At least 1 source of data must be unstructured, but cannot be Twitter. 
+\item An ETL process is required to extract data from the original sources, clean the data, transform it into a suitable structure for your data warehouse data model, and load your data warehouse
+\item It must be possible to run the ETL strategy multiple times
+\item The data warehouse must support 3 non-trivial BI queries
+\item No source of data may be older than 1 year, i.e. it must have been made publicly available no earlier than 17/09/2017; last modified / updated dates do not count (provide a screen shot as evidence in your report appendix).
+\item Data from Social Media, e.g. Twitter, Redit etc. may only be used if the total size of dataset exceed 100000 (one hundred thousand) rows, where one row corresponds to 1 Tweet, post, comment, etc. When using social media data, you must discuss in the description of the data source, how the data has been collected, i.e. the keywords, URLs, etc. used to source the data, and also discuss any steps taken to ensure that the data is relevant. You should also take note of \cite{gonzalez2014assessing} when considering the sample (or view) your collected data provides for your project context.
+\end{itemize}
+
+\section{Key Terms and Definitions}
+Often there is some confusion over some key terms used in this project brief. These are defined below to avoid confusion.
+
+\begin{description}
+\item[Data Source] a source of data is a single point of access (subject repository), e.g. if 2 data sets are included from Statista; Statista is the point of access, and thus counts as only ONE source of data, even if more than one Statista dataset is used. Note that fabricated data can only be counted as 1 source, even if multiple approaches are used to fabricate the data. For example, the following would count as FOUR sources of data:
+\begin{itemize}
+\item Statista’s Global market share held by leading smartphone vendors from 4th quarter 2009 to 2nd quarter 2018
+\item Eurostat’s Individuals using mobile devices to access the internet on the move 
+\item The previous 36 months of vendor stock data from Quandl
+\item 25000 Tweets over a 12 week period for each of the Vendors
+\end{itemize}
+
+Whereas the following would count as TWO sources of data:
+\begin{itemize}
+\item CSO data on Irish Employment
+\item CSO data on Macroeconomic Measures of the Irish Economy 
+\item x5 csv files from Mockaroo
+\end{itemize}
+
+\item[1 Year Old Data] All sources of data in the data warehouse \textbf{MUST} be less than a year old. A dataset may deal with events that are more than a year old, for example, it may cover the last 40 years of forest fires, but the dataset itself must have been made available no later than 17/09/2017. You must document the age of your sources of data in your report (a screenshot in the appendix is appropriate). If it is not clear when the dataset was made available, it should not be used, otherwise it may be disregarded in the grading. Data that is web-scrapped is exempt from this rule, provided that it cannot be accessed any other way.
+
+\item[Relatable Data] it is not expected that all datasets work in perfect harmony with each other, however, if there is no obvious reason to include a dataset, i.e. it cannot be used in conjunction with another data source to answer a BI query, it will not be considered as a part of the DW.
+
+\item[Non-trivial BI Query] a non-trivial BI query is one that cannot be answered using only one source alone. Note the definition of data source. A BI query based on two Statista datasets, will be considered as trivial. NOTE: it is necessary to explicitly illustrate which sources of data contribute to a query.
+
+\item[Re-runnable ETL] it must be possible to at least truncate the data warehouse and repopulate it using the ETL process designed as a part of the project. Refresh loading (adding new data) will also be considered re-runnable.
+
+\item[Automated Extraction] pulling data from its source and uploading it to at least a staging arena in one process. There should be no disconnect between the download and upload of the data. For some structured datasets that sit behind a login (e.g. kaggle) this may not be possible. 
+\item[Automated Cleaning] the ETL process also includes the means to clean the data. To be considered as automated, the data should be cleaned programmatically every time it is loaded.
+\item[Automated Transformation] same as cleaning, the data should be transformed by a computational process every time it is loaded.
+\item[Automated Loading] the ETL process includes functionality to load sources of data and populate the fact table through a series of lookups or similar.
+\end{description}
+
+\section{CA Deliverables}
+For the project, there are 2 deliverables: 1) a written report, and 2) a pre-recorded video demonstration with voice commentary of up to 5 mins.
+
+The report should be structured as follows:
+\begin{enumerate}
+\item A completed check list (see template)
+\item \textbf{Introduction}: description of the setting of your data warehouse. This section should document: the objectives of the project, and lay out three business requirements for the data warehouse to meet. Suggested length: 1 page.
+\item \textbf{Data Sources}: A formal description of the sources of data, and a motivation for these sources of data. You should describe how the data sets have been collected, note their age (i.e., when they were made available, not when they were last modified). If you have fabricated your own data for this project, describe how this has been done, and what assumptions and/or data artefacts are interwoven in this process. Suggested length: ~1 page per dataset, (max 3 pages).
+\item \textbf{Related Work}: Discuss other academic works that are relevant to your project. Typically, answering questions such as: How have these (or similar) datasets been used before? What is generally known about the domain within which your requirements (above) are situated? What significant results exist in this area, and how to you expect to add to them by undertaking this project? (i.e., what new information or perspective do you hope to provide in doing this project?). You must use well-regarded academic sources such as peer-reviewed articles, trade publications, and conference papers. A good starting point to locate curated sources is Scopus (https://www.scopus.com ). Suggested length: 2-3 pages.
+\item \textbf{Data Warehouse Data Model}: description of the schema(s) built. What dimensions do you have, and why? Also include a discussion on why they are composed in this manner. Noteworthy, also is how the data model has been prepared for the BI queries. You MUST include how each of the data sources are included in the data model and describe how they populate the data model. Include both of the following: your star/snowflake/galaxy schema(s); and which sources of data contribute to your schema including where they are present in the schema. For example, if a dimension is populated from multiple data sets/sources explain where they contribute and why they were included in this manner. Suggested length: 2 pages.
+\item \textbf{Logical Data Map}: a table presenting exactly how the data is transformed for the data warehouse (can include details specific to cleaning). Suggested length: 2-4 pages
+\item \textbf{ETL strategy}: describe the general strategy for extracting, transforming, cleaning, staging and loading data into the data warehouse. This section should build upon the previous two sections and describe in general how the data warehouse is populated. It is not required to explain how to use SSIS/SSAS in this section. Ideally, you should be explaining the rationale behind your SSIS workflow in this section, and its key steps. A screenshot of your SSIS workflow is not required here (you have the video to explain individual parts of the workflow), in this section you should describe more generally the ETL strategy. Suggested length: 2-3 pages
+\item \textbf{Application of Data Warehouse}: Execute three (and only three) non-trivial queries that highlight the business value of your data warehouse, and which meet your requirements. For each query, you must note the sources of data contributing to the answer of the query and how. Each BI query should be articulated as a question that is answered using the data warehouse. You may use visualisation tools to execute the queries, e.g. Power Pivot, Tableau, Power BI etc. However, the video MUST illustrate how these tools have been integrated into your overall solution – at least how the cube has been imported/exported. Suggested length: 1 page per query, 3 in total.
+\item \textbf{Conclusion}: how well did your data warehouse do at addressing your requirements and in comparison to the papers you discussed in the related work section? Suggested length: 1 page.
+\item \textbf{Appendix}: listings of all code (as text \textbf{NOT} as images) used in the project. If you have used code from online tutorials, include links to these sources instead noting briefly how they have been used. 
+\end{enumerate}
+
+The final report should not be more than 20 pages using the \LaTeX template provided. The video should be no more than 5 minutes in length. You may use any screen capture software, e.g. Snagit, Camtasia, CamStudio, Quicktime, etc.\footnote{See \url{http://elearningbrothers.com/top-10-screen-recording-software-for-windows/} or \url{http://www.toptenreviews.com/software/multimedia/best-video-capture-software/} for reference}  The video should showcase core functionality of the data warehouse and ETL strategy. It should also show the execution of 2 or more of the BI queries discussed in the report. The voice commentary should explain key aspects of what is being shown, and noteworthy implications as well as interesting / surprising results or outcomes. 
+
+\section{Data Warehouse Availability and Implementation}
+Full freedom on the design and implementation methodology is given to the student. Students are free to use any data warehousing tool set discussed in the course, or otherwise. 
+
+The final project implementation \textbf{MUST} be accessible up to the day that you receive your examination marks (usually week 2 or 3 of Semester 2). You may be called upon to demonstrate your solution if further details or evidence are required to support your paper and/or video presentation. It is your responsibility to ensure appropriate storage and backup for your project. Failure to do so, if demonstration is required, could negatively impact the project grade. 
+
+\section{Data Sources}
+Students are expected to independently source relevant data for use in the case studies. Note: data sets will likely need cleaning and you need to ensure that appropriate relationships exist between your data sets, such that they can be transformed and loaded into the warehouse for meaningful case studies. \textbf{The warehouse must incorporate 3 or more sources of data, of which at least 1 should be structured and 1 unstructured}. EU/Ireland-centric sources and topics are strongly suggested, as this project will form part of your MSc project portfolio.  
+
+\begin{quote}
+\centering
+\large{\textbf{Extra credit will be given for incorporating specifically challenging or innovative sources of data.}}
+\end{quote}
+
+The report should detail the sources of data, how they were generated or extracted, and the steps taken to load and transform the data for storage in the warehouse. Some example sources of data include:
+\begin{itemize}
+\item Social Media and Blogs
+\item Corporate documents, reports and white papers
+\item Patents
+\item (Dummy) CRM, ERP, Customer transaction records (max of 1 dummy source)
+\item Accounting documents
+\item News articles (e.g. via feedzilla)
+\item Stock tickers (e.g. quandl.com)
+\item Web Pages
+\end{itemize}
+
+Possible sources of datasets include, but are not limited to:
+
+\begin{itemize}
+\item Statista \url{https://www.statista.com}
+\item European Data Portal, EU Open Data Portal, and other \url{http://data.europa.eu/}  
+\item UK’s open government data repository: \url{http://data.gov.uk} 
+\item Central Statistics Office, Ireland: \url{http://www.cso.ie} 
+\item Kaggle: \url{http://www.kaggle.com} 
+\item Run My Code: \url{http://www.runmycode.org/} 
+\item Amazon’s public dataset repository: 
+\url{https://aws.amazon.com/datasets}
+\item Google’s Public Data Directory: \url{http://www.google.com/publicdata/directory} 
+\item The UCI machine learning repository: \url{http://archive.ics.uci.edu/ml/} 
+\item Google Data Search: \url{https://toolbox.google.com/datasetsearch}
+\item Zenodo \url{https://zenodo.org} 
+\item Dublinked \url{https://data.smartdublin.ie}
+\item Data.gov \url{https://www.data.gov/}
+\item Quandl \url{https://www.quandl.com}
+\end{itemize}
+
+\section{BI Queries}
+The BI queries represent three exemplary non-trivial knowledge discovery exercises facilitated through your prototypical data warehouse implementation. Appropriate presentation of the results should be provided in the report. Their implications should be appropriately discussed referencing relevant literature where applicable. \textbf{Do not include more than three queries.}
+
+\section{Advisory project time plan}
+\begin{itemize}
+\item[Week 3] completed all SQL-related tutorials and labs
+\item[Week 4/5] identify topic and potential sources of data and ensure you have completed the data loading tutorials and intro to R tutorials.
+\item[Week 7] finalise data model (star/snowflake schema), and have data in the DW
+\item[Week 8] have at least 1 deployable cube
+\item[Week 9] begin documentation, and plan the video / BI queries
+\item[Week 11] finalise the report
+\item[Week 12] don’t plan anything for this week, you will miss the deadline!
+\end{itemize}
+
+\section{Topics not eligible for the project}
+Whilst there is a lot of scope for potential project topics, the projects on the following topics are not permitted, and will not be accepted for grading:
+\begin{itemize}
+\item Sports (Tennis, Football, Cricket etc.)
+\item Music (Bands, Lyrics analysis, Sales, Charts etc.)
+\item Videogames (sales, popularity, etc)
+\item Movies, or TV.
+\item Alcohol or Tobacco (sales, popularity, etc.)
+\end{itemize}
+
+\section{Stuck on the project?}
+Watch these two videos, they tend to help address most problems:
+\begin{itemize}
+\item \url{https://www.youtube.com/watch?v=ctUiHZHr-5M }
+\item \url{https://www.youtube.com/watch?v=kTPJBAtv29k&list=PL7A29088C98E92D5F}
+\end{itemize} 
+
+This tutorial is also typically a good guide for the project as well: \url{http://www.codeproject.com/Articles/652108/Create-First-Data-WareHouse}
+
+If you are unsure about how to write a literature review, or generally would like to see what one looks like, see \cite{hall2018editorial}
+
+\bibliographystyle{plain}
+\bibliography{refs.bib}
+
+\newpage
+\begin{landscape}
+\section{Grading Rubric}
+\begin{center}
+\begin{longtable}{|p{.15\linewidth}||*5{p{.15\linewidth}|}}
+    \caption{DWBI Project Grading Rubric\label{tbl:rubric}}\\
+    \hline\hline
+    {\bf Criteria} & {\bf H1} & {\bf H2-1} & {\bf H2-2} & {\bf Pass} & {\bf Fail} \\ \hline\hline
+    \endfirsthead
+\multicolumn{6}{c}%
+	{\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
+	\hline
+	{\bf Criteria} & {\bf H1} & {\bf H2-1} & {\bf H2-2} & {\bf Pass} & {\bf Fail}  \\
+	\hline
+	\endhead
+	\hline \multicolumn{6}{r}{\textit{Continued on next page}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+
+% rows begin here:
+    \hline\hline
+    \textbf{Objectives and Requirements (5\%)} 
+    & The objectives and 3 requirements for the project are coherently documented. Appropriate academic works help meaningfully motivate the choice of topic. 
+    & The objectives and 3 requirements for the project are coherently documented. The project is well motivated.  
+    & The objectives and 3 requirements for the project are coherently documented. 
+    & The objectives and 3 requirements for the project are documented. 
+    & There are less than 3 requirements, and/or the objectives / motivation are not clear. 
+    \\\hline
+
+	\textbf{Related Work (10\%)} 
+	& At least 5 appropriate academic sources are critiqued that have similarities with respect to the project domain and provide additional insight on the topic selected via a discussion in reference to the project results. No mistakes in referencing. 
+	& At least 5 appropriate academic sources are critiqued that have similarities with respect to the project domain and provide additional insight on the topic selected. No mistakes in referencing.
+	& At least 5 appropriate academic sources are critiqued that have similarities with respect to the project domain. No mistakes in referencing.
+	& At least 5 appropriate academic sources are discussed that have similarities with respect to the project domain. Some mistakes in referencing.
+	& No meaningful discussion of appropriate related work.
+	\\\hline
+	
+	\textbf{Data (25\%)} & & & & & \\
+	10\%	
+	& At least 3 sources of data are included, that meet the project requirements. All data sources are formally described, with a discussion on their quality. 
+	& At least 3 sources of data are included, that meet the project requirements. All data sources are formally described.
+	& At least 3 sources of data are included, that meet the project requirements. All data sources are adequately described. 
+	& At least 3 sources of data are included, that meet the project requirements. All data sources are described, but more depth is needed. 
+	& Data Source requirements not met \\\cline{2-6}
+	
+	10\% 
+	& Datasets make sense for the project, and all datasets have a high degree of complexity. All data sets have a well-conceived place in the data model.
+ 	& Datasets make sense for the project, and two datasets have a high degree of complexity. Most data sets have a well-conceived place in the data model.
+	& Datasets make sense for the project, and one dataset has a high degree of complexity. It is not clear how/why some data is included in the model
+	& Datasets make sense for the project but are still somewhat arbitrary or limited in size. It is not clear how/why some data is included in the model
+ 	& No (meaningful) discussion on usefulness or appropriateness of data sources. \\\cline{2-6}
+ 	
+ 	5\%
+ 	& The model evidences multi-dimensional drill down 
+ 	& The model evidences multi-dimensional drill down 
+ 	& The model evidences drill down in at least two dimensions 
+ 	& The model evidences drill down in at least one dimension
+ 	& No drill down demonstrated \\\hline
+	
+	\textbf{ETL (20\%)} & & & & & \\
+	10\%	
+	& A solution set that addresses complexity in the data sources, and rigorously handles all aspects of the underlying data.
+	& A solution set that attempts, with some degree of success, to address some complex issues in the data sources, and handles many of the aspects of the underlying data.
+	& A solution set that addresses a wide scope of issues and challenges, but lacks depth in one or more components in ETL processes.
+	& A solution set that addresses the basic requirements of ETL such that a functioning data warehouse is facilitated. 
+	& A solution may be presented, but the basic ETL requirements are not met. The data warehouse may not fully function. \\\cline{2-6}
+	
+	10\%
+ 	& Loading, Extraction, Transformation and Cleaning are automated.
+ 	& Loading, and two of (Extraction, Transformation, and Cleaning) are automated.
+ 	& Loading, and one of (Extraction, Transformation, and Cleaning) are automated.
+ 	& Loading is automated
+ 	& No ETL Automation. There may be no evidence that the data warehouse can be rebuilt. \\\hline
+	
+	\textbf{Application (20\%)} & & & & & \\
+	10\%	
+	& Three non-trivial BI queries illustrating business value and that meet the requirements are presented in the report. The results are critically evaluated at multiple levels using appropriate academic literature to substantiate lines of discussion.
+	& Three non-trivial BI queries illustrating business value and that meet the requirements are presented in the report.The results are critically evaluated, but may lack some depth in some lines of discussion.
+	& Three non-trivial BI queries illustrating some business value and that meet the requirements are presented in the report. An attempt is made to critically evaluate the results, but lacks depth.
+	& Three non-trivial BI queries are presented and that meet the requirements in the report. They may lack clear business value. Little to no attempt is made to critically evaluate the results.
+	& Less than three non-trivial BI queries are presented in the report. There is no non-arbitrary discussion of results.
+\\\cline{2-6}	
+
+	10\%
+ 	& 3 BI queries depending on multiple sources are presented. The report documents and motivates which data sources are leveraged for each BI query.
+ 	& At least 2 BI queries depending on multiple sources are presented. The report documents which data sources are leveraged for each BI query.
+ 	& At least 1 BI query depending on multiple sources is presented. The report documents which data sources contribute to BI queries.
+ 	& Some BI queries depend on multiple, but potentially arbitrary, sources of data. The report documents which data sources contribute to BI queries.
+ 	& None of the case studies rely on multiple non-arbitrary sources of data. The report does NOT document how different data sources contribute to each BI query.  \\\hline
+	
+	\textbf{Video (10\%)} 
+	& A well-conceived video demonstrating all key ETL functionality and the execution of at least 2 BI queries. The results of selected BI queries are illustrated with an advanced grasp of their limitations, implications and efficacy.
+ 	& A well-conceived video demonstrating key ETL functionality and the execution of at least 2 BI queries. The results of selected BI queries are illustrated with an acceptable grasp of their limitations and implications.
+	& A well-conceived video demonstrating essential ETL functionality and at least 2 BI queries. The results of selected BI queries are illustrated; an attempt may have been made to discuss their implications and/or limitations.
+	& A demonstration video is provided that shows a functioning data warehouse. However, the video is poorly conceived and/or lacks depth. The execution of at least 2 BI queries is included. Some results of BI queries are shown, with little to no insightful discussion on their implications and/or limitations.
+ & A demonstration video may be provided, but is poorly conceived or does not clearly illustrate a functioning data warehouse solution. Meaningful results from BI queries might not be illustrated.
+\\\hline
+	
+	\textbf{Presentation (10\%)}
+	& No spelling mistakes, all figures readable, no errors in references. \LaTeX template is completely adhered to. No unnatural uses of language.
+	& Minor typographical errors. No mistakes in referencing. All figures well-conceived. \LaTeX template adhered to. No unnatural uses of language.
+	& A small number of typographical errors. No mistakes in referencing. All figures well-conceived. \LaTeX template mostly adhered to. No unnatural uses of language.
+	& Report is mostly well-written, but has a few too many typos, spelling mistakes, poor layout choices, sub-optimal figures. \LaTeX template is largely adhered to. No unnatural uses of language.
+	& Report is substandard with respect to one or more of the following: Spelling, Grammar, Figures, Use of \LaTeX template, Language
+	\\\hline
+	    \hline
+
+\end{longtable}
+\end{center}
+\end{landscape}
+
+\end{document}

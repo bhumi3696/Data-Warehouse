@@ -1,0 +1,12 @@
+\subsection*{R code example}
+
+\begin{lstlisting}
+#Calculate CE for each counterparty
+Value.A <- data.frame() #MTM value of each contract within cp A
+# ...
+for(i in 1:length(foo)){
+  if(isTrue(as.character(portfolio_data[i,1])=="A")==TRUE){
+    # ...
+  }
+}
+\end{lstlisting}

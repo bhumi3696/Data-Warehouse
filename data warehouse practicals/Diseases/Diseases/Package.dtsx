@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/14/2018 2:12:01 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="MOLAP"
+  DTS:CreatorName="MOLAP\MOLAP"
+  DTS:DTSID="{A14FF36C-98B0-4E21-99AE-361C38E09597}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.0800.98"
+  DTS:LocaleID="6153"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionGUID="{60CF1180-6CCC-432C-9426-F22C64EF6CF3}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>

@@ -1,0 +1,64 @@
+\begin{landscape}
+\section{Logical Data Map}
+\label{sec:map}
+
+In this section, describe your logical data map, i.e. how every row of every data source is handled such that it is a part of your star schema.
+
+\begin{center}
+\begin{longtable}{|*5{p{.1\linewidth}|}p{.4\linewidth}|}
+    \caption{Logical Data Map describing all transformations, sources and destinations for all components of the data model illustrated in \figurename~\ref{fig:star}}\\
+    \hline\hline
+    {\bf Source} & {\bf Column} & {\bf Destination} & {\bf Column} & {\bf Type} & {\bf Transformation} \\ \hline\hline
+    \endfirsthead
+\multicolumn{6}{c}%
+	{\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
+	\hline
+	{\bf Source} & {\bf Column} & {\bf Destination} & {\bf Column} & {\bf Type} & {\bf Transformation}  \\
+	\hline
+	\endhead
+	\hline \multicolumn{6}{r}{\textit{Continued on next page}} \\
+	\endfoot
+	\hline
+	\endlastfoot
+
+% rows begin here:
+
+    1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+    1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        1 & Movie Genre & DimMovie & Genre & Dimension & Primary Genre (1st one) only, all characters after first comma removed \\\hline
+    1 & Revenue & FactTable & Revenue & Fact & Rounded to nearest million \$ \\\hline
+        
+    
+    \hline
+
+\end{longtable}
+
+\end{center}
+
+\end{landscape}

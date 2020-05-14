@@ -1,0 +1,111 @@
+"Deaths from diseases of the circulatory system by Sex, ICD 10"
+"Diagnostic Group, statistical indicator and Year"
+
+" "," "," ","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016"
+"Both sexes"
+" ","I00-I02 Acute Rheumatic fever"
+" "," "," Underlying cause of death (Number)",3.0,3.0,0.0,6.0,2.0,3.0,8.0,2.0,5.0,2.0
+" "," "," Underlying cause of death (%)",0.0,0.0,0.0,0.1,0.0,0.0,0.1,0.0,0.1,0.0
+" ","I00-I99 Diseases of the circulatory system"
+" "," "," Underlying cause of death (Number)",9956.0,9956.0,9507.0,9594.0,9236.0,9480.0,9473.0,8852.0,9371.0,9206.0
+" "," "," Underlying cause of death (%)",100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+" ","I05-I09 Chronic rheumatic heart diseases"
+" "," "," Underlying cause of death (Number)",43.0,51.0,61.0,50.0,49.0,59.0,43.0,56.0,67.0,62.0
+" "," "," Underlying cause of death (%)",0.4,0.5,0.6,0.5,0.5,0.6,0.5,0.6,0.7,0.7
+" ","I10-I15 Hypertensive diseases"
+" "," "," Underlying cause of death (Number)",314.0,332.0,264.0,322.0,308.0,349.0,308.0,281.0,341.0,342.0
+" "," "," Underlying cause of death (%)",3.2,3.3,2.8,3.4,3.3,3.7,3.3,3.2,3.6,3.7
+" ","I20-I25 Ischaemic heart diseases"
+" "," "," Underlying cause of death (Number)",5375.0,5185.0,5016.0,4871.0,4707.0,4758.0,4642.0,4283.0,4492.0,4405.0
+" "," "," Underlying cause of death (%)",54.0,52.1,52.8,50.8,51.0,50.2,49.0,48.4,47.9,47.8
+" ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation"
+" "," "," Underlying cause of death (Number)",160.0,188.0,175.0,187.0,179.0,187.0,160.0,195.0,185.0,183.0
+" "," "," Underlying cause of death (%)",1.6,1.9,1.8,1.9,1.9,2.0,1.7,2.2,2.0,2.0
+" ","I30-I52 Other forms of heart disease"
+" "," "," Underlying cause of death (Number)",1408.0,1500.0,1393.0,1549.0,1497.0,1627.0,1773.0,1677.0,1845.0,1869.0
+" "," "," Underlying cause of death (%)",14.1,15.1,14.7,16.1,16.2,17.2,18.7,18.9,19.7,20.3
+" ","I60-I69 Cerebrovascular diseases"
+" "," "," Underlying cause of death (Number)",2078.0,2142.0,2054.0,2097.0,1993.0,1935.0,1959.0,1852.0,1920.0,1826.0
+" "," "," Underlying cause of death (%)",20.9,21.5,21.6,21.9,21.6,20.4,20.7,20.9,20.5,19.8
+" ","I70-I179 Diseases of the arteries, arterioles and capillaries"
+" "," "," Underlying cause of death (Number)",505.0,501.0,476.0,451.0,440.0,492.0,495.0,445.0,457.0,472.0
+" "," "," Underlying cause of death (%)",5.1,5.0,5.0,4.7,4.8,5.2,5.2,5.0,4.9,5.1
+" ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"
+" "," "," Underlying cause of death (Number)",67.0,50.0,66.0,55.0,60.0,66.0,82.0,56.0,55.0,44.0
+" "," "," Underlying cause of death (%)",0.7,0.5,0.7,0.6,0.6,0.7,0.9,0.6,0.6,0.5
+" ","I95-I99 Other and unspecified disorders of the circulatory system"
+" "," "," Underlying cause of death (Number)",3.0,4.0,2.0,6.0,1.0,4.0,3.0,5.0,4.0,1.0
+" "," "," Underlying cause of death (%)",0.0,0.0,0.0,0.1,0.0,0.0,0.0,0.1,0.0,0.0
+"Male"
+" ","I00-I02 Acute Rheumatic fever"
+" "," "," Underlying cause of death (Number)",1.0,0.0,0.0,4.0,2.0,1.0,5.0,2.0,4.0,1.0
+" "," "," Underlying cause of death (%)",0.0,0.0,0.0,0.1,0.0,0.0,0.1,0.0,0.1,0.0
+" ","I00-I99 Diseases of the circulatory system"
+" "," "," Underlying cause of death (Number)",4984.0,4967.0,4777.0,4870.0,4614.0,4779.0,4791.0,4448.0,4741.0,4768.0
+" "," "," Underlying cause of death (%)",100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+" ","I05-I09 Chronic rheumatic heart diseases"
+" "," "," Underlying cause of death (Number)",13.0,13.0,10.0,11.0,17.0,19.0,13.0,20.0,21.0,14.0
+" "," "," Underlying cause of death (%)",0.3,0.3,0.2,0.2,0.4,0.4,0.3,0.4,0.4,0.3
+" ","I10-I15 Hypertensive diseases"
+" "," "," Underlying cause of death (Number)",117.0,130.0,89.0,114.0,111.0,123.0,117.0,98.0,110.0,118.0
+" "," "," Underlying cause of death (%)",2.3,2.6,1.9,2.3,2.4,2.6,2.4,2.2,2.3,2.5
+" ","I20-I25 Ischaemic heart diseases"
+" "," "," Underlying cause of death (Number)",3020.0,2933.0,2864.0,2821.0,2645.0,2753.0,2707.0,2498.0,2625.0,2649.0
+" "," "," Underlying cause of death (%)",60.6,59.0,60.0,57.9,57.3,57.6,56.5,56.2,55.4,55.6
+" ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation"
+" "," "," Underlying cause of death (Number)",63.0,82.0,66.0,81.0,73.0,85.0,63.0,80.0,65.0,72.0
+" "," "," Underlying cause of death (%)",1.3,1.7,1.4,1.7,1.6,1.8,1.3,1.8,1.4,1.5
+" ","I30-I52 Other forms of heart disease"
+" "," "," Underlying cause of death (Number)",657.0,639.0,627.0,740.0,681.0,734.0,781.0,750.0,830.0,882.0
+" "," "," Underlying cause of death (%)",13.2,12.9,13.1,15.2,14.8,15.4,16.3,16.9,17.5,18.5
+" ","I60-I69 Cerebrovascular diseases"
+" "," "," Underlying cause of death (Number)",805.0,881.0,843.0,822.0,828.0,773.0,803.0,752.0,831.0,771.0
+" "," "," Underlying cause of death (%)",16.2,17.7,17.6,16.9,17.9,16.2,16.8,16.9,17.5,16.2
+" ","I70-I179 Diseases of the arteries, arterioles and capillaries"
+" "," "," Underlying cause of death (Number)",276.0,273.0,252.0,244.0,231.0,254.0,268.0,222.0,228.0,244.0
+" "," "," Underlying cause of death (%)",5.5,5.5,5.3,5.0,5.0,5.3,5.6,5.0,4.8,5.1
+" ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"
+" "," "," Underlying cause of death (Number)",31.0,13.0,26.0,30.0,26.0,33.0,32.0,25.0,25.0,17.0
+" "," "," Underlying cause of death (%)",0.6,0.3,0.5,0.6,0.6,0.7,0.7,0.6,0.5,0.4
+" ","I95-I99 Other and unspecified disorders of the circulatory system"
+" "," "," Underlying cause of death (Number)",1.0,3.0,0.0,3.0,0.0,4.0,2.0,1.0,2.0,0.0
+" "," "," Underlying cause of death (%)",0.0,0.1,0.0,0.1,0.0,0.1,0.0,0.0,0.0,0.0
+"Female"
+" ","I00-I02 Acute Rheumatic fever"
+" "," "," Underlying cause of death (Number)",2.0,3.0,0.0,2.0,0.0,2.0,3.0,..,1.0,1.0
+" "," "," Underlying cause of death (%)",0.0,0.1,0.0,0.0,0.0,0.0,0.1,..,0.0,0.0
+" ","I00-I99 Diseases of the circulatory system"
+" "," "," Underlying cause of death (Number)",4972.0,4989.0,4730.0,4724.0,4622.0,4701.0,4682.0,4404.0,4630.0,4438.0
+" "," "," Underlying cause of death (%)",100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0,100.0
+" ","I05-I09 Chronic rheumatic heart diseases"
+" "," "," Underlying cause of death (Number)",30.0,38.0,51.0,39.0,32.0,40.0,30.0,36.0,46.0,48.0
+" "," "," Underlying cause of death (%)",0.6,0.8,1.1,0.8,0.7,0.9,0.6,0.8,1.0,1.1
+" ","I10-I15 Hypertensive diseases"
+" "," "," Underlying cause of death (Number)",197.0,202.0,175.0,208.0,197.0,226.0,191.0,183.0,231.0,224.0
+" "," "," Underlying cause of death (%)",4.0,4.0,3.7,4.4,4.3,4.8,4.1,4.2,5.0,5.0
+" ","I20-I25 Ischaemic heart diseases"
+" "," "," Underlying cause of death (Number)",2355.0,2252.0,2152.0,2050.0,2062.0,2005.0,1935.0,1785.0,1867.0,1756.0
+" "," "," Underlying cause of death (%)",47.4,45.1,45.5,43.4,44.6,42.7,41.3,40.5,40.3,39.6
+" ","I26-I28 Pulmonary heart disease and diseases of pulmonary circulation"
+" "," "," Underlying cause of death (Number)",97.0,106.0,109.0,106.0,106.0,102.0,97.0,115.0,120.0,111.0
+" "," "," Underlying cause of death (%)",2.0,2.1,2.3,2.2,2.3,2.2,2.1,2.6,2.6,2.5
+" ","I30-I52 Other forms of heart disease"
+" "," "," Underlying cause of death (Number)",751.0,861.0,766.0,809.0,816.0,893.0,992.0,927.0,1015.0,987.0
+" "," "," Underlying cause of death (%)",15.1,17.3,16.2,17.1,17.7,19.0,21.2,21.0,21.9,22.2
+" ","I60-I69 Cerebrovascular diseases"
+" "," "," Underlying cause of death (Number)",1273.0,1261.0,1211.0,1275.0,1165.0,1162.0,1156.0,1100.0,1089.0,1055.0
+" "," "," Underlying cause of death (%)",25.6,25.3,25.6,27.0,25.2,24.7,24.7,25.0,23.5,23.8
+" ","I70-I179 Diseases of the arteries, arterioles and capillaries"
+" "," "," Underlying cause of death (Number)",229.0,228.0,224.0,207.0,209.0,238.0,227.0,223.0,229.0,228.0
+" "," "," Underlying cause of death (%)",4.6,4.6,4.7,4.4,4.5,5.1,4.8,5.1,5.0,5.1
+" ","I80-I89 Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified"
+" "," "," Underlying cause of death (Number)",36.0,37.0,40.0,25.0,34.0,33.0,50.0,31.0,30.0,27.0
+" "," "," Underlying cause of death (%)",0.7,0.7,0.8,0.5,0.7,0.7,1.1,0.7,0.7,0.6
+" ","I95-I99 Other and unspecified disorders of the circulatory system"
+" "," "," Underlying cause of death (Number)",2.0,1.0,2.0,3.0,1.0,0.0,1.0,4.0,2.0,1.0
+" "," "," Underlying cause of death (%)",0.0,0.0,0.0,0.1,0.0,0.0,0.0,0.1,0.1,0.0
+
+"Data up to and including 2015 is final by the year of occurrence. "
+"Data for years after this are provisional by date of registration and "
+"subject to revision. "
+

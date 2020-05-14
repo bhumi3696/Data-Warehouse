@@ -1,0 +1,97 @@
+---
+title: "Data Quality Report"
+subtitle: "Customer Churn Data"
+author: "Dr. Simon Caton"
+date: "13/9/2018"
+output: pdf_document 
+keep_tex: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE)
+```
+
+## Intro to the method of reporting
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## DQR Continuous Data
+
+From the code provided in the slides, we can rebuild our table. Either copy and paste all the code into a code block like the ones above, or just reference the .R file, like this (make sure you comment out anything you don't want to run). Note that I have set *eval=FALSE* that's because I don't want it to run -- it will make a mess of the document.
+
+```{r eval=FALSE}
+source("1-cleaned.R")
+```
+
+So let's rebuild the table:
+```{r echo=FALSE}
+churn <- read.csv(file="./datasets/ABT_Telco_Churn.csv", 
+                  na.strings = c("", "#N/A"))
+
+churn$Churn_Fl <- factor(churn$Churn_Fl, labels=c("N", "Y"), levels=c(0,1))
+
+# Remove what we don't need
+churn$Cust_No <- NULL
+churn$Tarriff_Type <- NULL
+
+## Example DQR I
+n <- sapply(churn, function(x) {is.numeric(x)})
+churn_numerics <- churn[, n]
+instances <- sapply(churn_numerics, FUN=function(x) {length(x)})
+missing <- sapply(churn_numerics, FUN=function(x) {sum(is.na(x))})
+missing <- missing / instances * 100
+unique <- sapply(churn_numerics, FUN=function(x) {length(unique(x))})
+quantiles <- t(sapply(churn_numerics, FUN=function(x) {quantile(x)}))
+means <- sapply(churn_numerics, FUN=function(x) {mean(x)})
+sds <- sapply(churn_numerics, FUN=function(x) {sd(x)})
+
+## Example DQR II
+df_numeric <- data.frame(Feature=names(churn_numerics), 
+                         Instances=instances,
+                         Missing=missing,
+                         Cardinality=unique,
+                         Min=quantiles[,1],
+                         FirstQuantile=quantiles[,2],
+                         Median=quantiles[,3],
+                         ThirdQuantile=quantiles[,4],
+                         Max=quantiles[,5],
+                         Mean=means,
+                         Stdev=sds)
+
+rownames(df_numeric) <- NULL
+
+## Example DQR III
+library(knitr)
+df_numeric$Feature <- c("Contract Len", "Avg Bill", "Avg OOB TC", "Avg OOB TA", "Avg Voice", "Avg SMS", "Avg Data", "Age")
+
+# I'm using some formatting tricks here for the presentation
+kable(df_numeric, caption = "Continuous Data Quality Report", digits = 2)
+```
+
+Oops, our table is too wide! Either we would need to break it down a little like this:
+```{r}
+kable(df_numeric[, c(1:4)], caption = "Continuous Data Quality Report", digits = 2)
+kable(df_numeric[, c(1,5:8)], caption = "Continuous Data Quality Report", digits = 2)
+```
+
+Or display it in landscape:
+```{r}
+library(kableExtra)
+landscape(knitr::kable(df_numeric, caption = "Continuous Data Quality Report", digits = 2))
+```
